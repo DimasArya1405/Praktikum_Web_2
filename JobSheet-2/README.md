@@ -53,6 +53,10 @@ public function tampilkanData(){
 $mahasiswa = new Mahasiswa();
 echo $mahasiswa->tampilkanData();
 ```
+
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/1-code.png)
+Output :
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/1-output.png)
 ### 2. Implementasi Constructor
 * Tambahkan constructor pada kelas Mahasiswa yang akan menginisialisasi
 atribut nama, nim, dan jurusan.
@@ -68,6 +72,9 @@ public function __construct($nama,$nim,$jurusan){
 $mahasiswa = new Mahasiswa("Dimas Arya Nugraha","230202033","Komputer dan Bisnis");
 echo $mahasiswa->tampilkanData();
 ```
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/2-code.png)
+Output :
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/2-output.png)
 ### 3. Membuat Metode Tambahan
 * Buat metode updateJurusan() dalam kelas Mahasiswa yang memungkinkan
 perubahan jurusan.
@@ -85,6 +92,9 @@ $mahasiswa->UpdateJurusan("Elektro");
 echo "Setelah jurusan di update";
 echo $mahasiswa->tampilkanData();
 ```
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/3-code.png)
+Output :
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/3-output.png)
 #### 4. Penggunaan Atribut dan Metode
 * Ubah nilai atribut nim dari objek Mahasiswa menggunakan metode setter.
 ```php
@@ -100,6 +110,9 @@ $mahasiswa = new Mahasiswa("Dimas Arya Nugraha","230202033","Komputer dan Bisnis
 $mahasiswa->setNim("230202059");
 echo $mahasiswa->tampilkanData();
 ```
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/4-code.png)
+Output ;
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/4-Output.png)
 # Tugas
 ### 1. Implementasikan kelas Dosen dengan atribut nama, nip, dan mataKuliah.
 ```php
@@ -125,6 +138,9 @@ public function tampilkanDosen(){
 $dosen = new Dosen("12345","Dimas Arya Nugraha","Pemrograman Web");
 echo $dosen->tampilkanDosen();
 ```
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/Tugas.png)
+Output :
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/Img%20JobSheet-2/5-Tugas.png)
 
 
 
