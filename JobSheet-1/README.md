@@ -130,6 +130,9 @@ diinstansiasi.
 ![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/abstract.png)
 Output :
 
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/4.png)
+
+
 
 
 
