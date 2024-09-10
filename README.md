@@ -5,4 +5,6 @@
 
 Repositori ini saya buat untuk memenuhi tugas mata kuliah praktikum web 2 yang di ampu oleh Bapak Prih Diantono Abda'U, S Kom., M.Kom. 
 ### README Per JobSheet
-[JobSheet-1](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/README.md)
+[JobSheet-1](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/README.md)<br>
+[JobSheet-2](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-2/README.md)<br>
+[JobSheet-3](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-3/README.md)
