@@ -87,12 +87,18 @@ Method aksesFitur() menggunakan abstract menjadi lebih singkat.
 * Instansiasi objek dari class Mahasiswa dan tampilkan data mahasiswa tersebut.
   
 ![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/class%20%26%20object.png)
+Output :
+
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/1.png)
 ### 2. Encapsulation
 * Ubah atribut dalam class Mahasiswa menjadi private.
 * Buat metode getter dan setter untuk atribut nama, nim, dan jurusan.
 * Demonstrasikan akses ke atribut menggunakan metode getter dan setter.
 
   ![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/encapsulation.png)
+Output :
+
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/2.png)
 ### 3. Inheritance
 * Buat class Pengguna dengan atribut nama dan metode getNama().
 * Buat class Dosen yang mewarisi class Pengguna dan tambahkan atribut
@@ -100,6 +106,9 @@ mataKuliah.
 * Instansiasi objek dari class Dosen dan tampilkan data dosen.
 
   ![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/inheritance.png)
+Output :
+
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/3.png)
 ### 4. Polymorphism
 * Buat class Pengguna dengan metode aksesFitur().
 * Implementasikan aksesFitur() dengan cara berbeda di class Dosen dan
@@ -108,6 +117,9 @@ Mahasiswa.
 aksesFitur().
 
 ![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/polymorphism.png)
+Output :
+
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/4.png)
 ### 5. Abstraction
 * Buat class abstrak Pengguna dengan metode abstrak aksesFitur().
 * Implementasikan class Mahasiswa dan Dosen yang mengimplementasikan
@@ -116,6 +128,8 @@ metode abstrak tersebut.
 diinstansiasi.
 
 ![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/JobSheet-1/img_pweb_2/abstract.png)
+Output :
+
 
 
 
