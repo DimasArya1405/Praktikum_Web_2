@@ -2,22 +2,22 @@
 ## Penjelasan per file
 ### 1. File header.php
 File ini berfungsi sebagai header dari file semua-data.php dan polymorphism.php yang berisi pembuka tag html dan juga menyimpan code css dan link href untuk dapat mengakses bootstrap.
-![alt text]()
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/header.php.png)
 ### 2. File footer.php
 File ini berfungsi sebagai footer dari file semua-data.php dan polymorphism.php yang berisi penutup tag html dan juga menyimpan code script untuk dapat mengakses bootstrap.
-![alt text]()
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/footer.php.png)
 ### 3. File libraries.php
 File ini berfungsi untuk menyimpan semua code proses dalam program seperti class, method/function, property, dan lain-lain. Bisa dikatakan file ini berisi code backend dari tugas ini.
-![alt text]()
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/libraries.php.png)
 ### 4. File navbar.php
 File ini berisi code untuk membuat navbar, yang dimana saya menggunakan template dari bootstrap untuk membuat navbar. File ini digunakan di file semua-data.php dan polymorphism.php untuk membuat navbar.
-![alt text]()
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/navbar.php.png)
 ### 5. File semua-data.php
 File ini berfungsi untuk menampilkan semua data di database menggunakan code program yang ada di file libraries.php dan menampilkannya di file ini.
-![alt text]()
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/semua-data.php.png)
 ### 6. File polymorphism.php
 File ini berfungsi untuk menampilkan semua data student dan semua data student yang memiliki alamat "Binangun" di database menggunakan code program yang ada di file libraries.php dan menampilkannya di file ini.
-![alt text]()
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/polymorphism.php.png)
 ## Penjelasan per langkah Tugas 2
 ### 1. Create an OOP-based View, by retrieving data from the MySQL database.
 * Function untuk menampilkan semua data dari table students menggunakan query "SELECT * FROM students"
@@ -151,4 +151,13 @@ class polymorphism extends Kelas{
 }
 ```
 ### OUPUT TUGAS-2
-![alt text]()
+* Output halaman pertama (Menampilkan semua data tabel Students dan tabel Student_Classes <br>
+Tabel Students.
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/all-students.png)
+Tabel Student_classes
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/all-classes.png)
+* Output halaman kedua (Menampilkan semua data dari tabel Students dan semua data dari tabel Students dengan addresses 'Binangun')<br>
+Semua data dari tabel Students.
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/poly-all.png)
+Semua data dari tabel Students dengan addresses 'Binangun'.
+![alt text](https://github.com/DimasArya1405/Praktikum_Web_2/blob/main/Tugas-2/Img%20Tugas-2/poly-bina.png)
